@@ -6,3 +6,22 @@
 #5 Create a function called max_num() that has three parameters named num1, num2, and num3. The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return "It's a tie!".
 
 #1 
+def in_range(num, lower, upper):
+    if num >= lower and num <= upper:
+        return True
+    else:
+        return False
+
+print ("triple ten", in_range(10,10,10))
+print ("False - 5,10,15", in_range(5,10, 15))
+print("False - 10, 100, 5", in_range(10,100,5))
+
+#2 Create a function named same_name() that has two parameters named your_name and my_name. If our names are identical, return True. Otherwise, return False.
+def same_name(your_name, my_name):
+    if your_name==my_name:
+        return True
+    else:
+        return False
+
+print("True, Jo-Jo", same_name("Jo","Jo"))
+print("False, Joe-Jo", same_name("Joe","Jo"))
