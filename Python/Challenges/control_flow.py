@@ -5,7 +5,7 @@
 #4 Create a function named movie_review() that has one parameter named rating.If rating is less than or equal to 5, return "Avoid at all costs!". If rating is between 5 and 9, return "This one was fun.". If rating is 9 or above, return "Outstanding!"
 #5 Create a function called max_num() that has three parameters named num1, num2, and num3. The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return "It's a tie!".
 
-#1 
+#1 Create a function named in_range() that has three parameters named num, lower, and upper.The function should return True if num is greater than or equal to lower and less than or equal to upper. Otherwise, return False.
 def in_range(num, lower, upper):
     if num >= lower and num <= upper:
         return True
