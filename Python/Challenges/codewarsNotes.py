@@ -1,7 +1,32 @@
-def make_upper_case(s):
-   return s.upper()
+def find_smallest_int(arr):
+    return sorted(arr)[0]
 
-print(make_upper_case("check"))
+print (find_smallest_int([78, 56, 232, 12, 11, 43]))
+print (find_smallest_int([0, 1-2**64, 2**64]))
+
+# def sum_two_smallest_numbers(numbers):
+#     return sorted(numbers)[0] + sorted(numbers)[1]
+
+# print(sum_two_smallest_numbers([1,2,3]))
+# print(sum_two_smallest_numbers([5, 8, 12, 18, 22]))
+# def is_divide_by(number, a,b):
+#     if number==None or a==None or b==None:
+#         return False
+#     div_a = number % a
+#     div_b = number % b
+#     if div_a != 0 or div_b != 0:
+#         return False
+#     else:
+#         return True
+
+# print(is_divide_by(33,1,33))
+# print(is_divide_by(8,3,4))
+# print(is_divide_by(10000,5,-3))
+
+# def make_upper_case(s):
+#    return s.upper()
+
+# print(make_upper_case("check"))
 
 
 
