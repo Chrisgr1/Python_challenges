@@ -1,15 +1,22 @@
-import string
+def descending_order(num):
+    lst = str(num)[:]
+    return sorted(lst)
+
+print(descending_order(3145))
+print(descending_order(3876))
+
+# import string
 
 
-def filter_list(lst):
-    newlist = []
-    for item in lst:
-                if isinstance(item, str) == False:
-                    newlist.append(item)
-    return newlist
+# def filter_list(lst):
+#     newlist = []
+#     for item in lst:
+#                 if isinstance(item, str) == False:
+#                     newlist.append(item)
+#     return newlist
 
 
-print(filter_list([1, 2, 'a', 'b']), [1, 2])
+# print(filter_list([1, 2, 'a', 'b']), [1, 2])
 
 # def solution(string):
 #     return string[::-1]
