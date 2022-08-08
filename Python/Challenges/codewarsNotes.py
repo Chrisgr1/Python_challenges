@@ -1,6 +1,8 @@
+
 def descending_order(num):
     lst = str(num)[:]
-    return sorted(lst)
+    newlst = sorted(lst,reverse=True)
+    return int(''.join(newlst))
 
 print(descending_order(3145))
 print(descending_order(3876))
