@@ -1,11 +1,18 @@
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    return distance_to_pump <= mpg*fuel_left
+print(zero_fuel(50, 25, 2), True)
 
-def descending_order(num):
-    lst = str(num)[:]
-    newlst = sorted(lst,reverse=True)
-    return int(''.join(newlst))
+# def find_needle(haystack):
+#     return "found the needle at position " + str(haystack.index("needle"))
 
-print(descending_order(3145))
-print(descending_order(3876))
+# print (find_needle(['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]))
+# def descending_order(num):
+#     lst = str(num)[:]
+#     newlst = sorted(lst,reverse=True)
+#     return int(''.join(newlst))
+
+# print(descending_order(3145))
+# print(descending_order(3876))
 
 # import string
 
