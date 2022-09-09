@@ -1,6 +1,45 @@
-def zero_fuel(distance_to_pump, mpg, fuel_left):
-    return distance_to_pump <= mpg*fuel_left
-print(zero_fuel(50, 25, 2), True)
+def count_sheep(n):
+    words = ''
+    if n==0:
+        return words
+    for i in range(1,n+1):
+        words += (str(i)+" sheep...")
+    return words
+
+
+
+print(count_sheep(2))
+print(count_sheep(4))
+print(count_sheep(0))
+
+# def get_count(sentence):
+#     counter = 0
+#     new_sentence = sentence.split()
+#     for letter in new_sentence:
+#         if letter == "a"or "e" or "i" or "o" or "u":
+#             counter =+ 1
+#     return counter
+
+# print (get_count("bcdfghjklmnpqrstvwxz y"), 0)
+
+# def century(year):
+#     a = round(year/100,0)
+#     b = round(year/100,2)
+#     print(a,b)
+#     if b==a:
+#         return int(b)
+#     else:
+#         return (int(b)+1)
+
+# print(century(1986))
+# print(century(1206))
+# print(century(1000))
+# print(century(1601))
+    # Finish this :)
+
+# def zero_fuel(distance_to_pump, mpg, fuel_left):
+#     return distance_to_pump <= mpg*fuel_left
+# print(zero_fuel(50, 25, 2), True)
 
 # def find_needle(haystack):
 #     return "found the needle at position " + str(haystack.index("needle"))
